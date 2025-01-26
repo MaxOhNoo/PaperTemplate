@@ -9,6 +9,17 @@ plugins/.paper-remapped
 plugins/bStats
 plugins/spark
 
+# Plugin generated stuff
+plugins/*/lib
+plugins/*/data.json
+plugins/*/messages.yml
+plugins/*/language
+plugins/*/language.yml
+plugins/*/discord.yml
+plugins/*/i18n
+plugins/*/modules
+plugins/*/vanillatweaks.mv.db
+
 # World files
 world
 world_nether
