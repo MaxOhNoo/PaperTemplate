@@ -1,0 +1,14 @@
+{
+  "name": "Minecraft 1.21.4",
+  "pack": "Minecraft",
+  "packId": 0,
+  "version": "1.21.4",
+  "isPatchedForLog4Shell": true,
+  "javaVersion": {
+    "component": "java-runtime-delta",
+    "majorVersion": 21
+  },
+  "isDev": false,
+  "mods": [],
+  "ignoredUpdates": []
+}
