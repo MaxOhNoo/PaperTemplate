@@ -130,3 +130,17 @@ send-prevents-chat-reports-to-client: true
 /mutelist
 /history <player>
 ```
+
+### [PaperTweaks](https://hangar.papermc.io/Machine_Maker/PaperTweaks)
+
+**Player Head Drops (On kill by Player)**
+
+**Villager Death Messages**
+
+**AFK Display (Gray username after 5 mins)**
+
+**Custom Nether Portals (6 squares minimum, crying obsidian allowed)**
+
+**Fast Leaf Decay**
+
+**Unlock all crafting recipes**
