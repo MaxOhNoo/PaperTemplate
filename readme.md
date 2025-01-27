@@ -133,14 +133,14 @@ send-prevents-chat-reports-to-client: true
 
 ### [PaperTweaks](https://hangar.papermc.io/Machine_Maker/PaperTweaks)
 
-**Player Head Drops (On kill by Player)**
+#### Player Head Drops (On kill by Player)
 
-**Villager Death Messages**
+#### Villager Death Messages
 
-**AFK Display (Gray username after 5 mins)**
+#### AFK Display (Gray username after 5 mins)
 
-**Custom Nether Portals (6 squares minimum, crying obsidian allowed)**
+#### Custom Nether Portals (6 squares minimum, crying obsidian allowed)
 
-**Fast Leaf Decay**
+#### Fast Leaf Decay
 
-**Unlock all crafting recipes**
+#### Unlock all crafting recipes

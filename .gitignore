@@ -4,21 +4,13 @@ logs
 libraries
 versions
 
-# Default Paper Plugins
-plugins/.paper-remapped
-plugins/bStats
-plugins/spark
+# Ignore all plugin files by default
+plugins
 
-# Plugin generated stuff
-plugins/*/lib
-plugins/*/data.json
-plugins/*/messages.yml
-plugins/*/language
-plugins/*/language.yml
-plugins/*/discord.yml
-plugins/*/i18n
-plugins/*/modules
-plugins/*/vanillatweaks.mv.db
+# Allow specifically these plugin file names
+!plugins/*/config.yml
+!plugins/*/punishments.yml
+!plugins/*/modules.yml
 
 # World files
 world
