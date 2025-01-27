@@ -17,10 +17,10 @@ enable-instant-pickup: true
 
 # only works if enable-instant-pickup is true
 # this makes it that only the owner of the grave will be able to instantly pick it up
-instant-pickup-only-own: false
+instant-pickup-only-own: true
 
 # you should disable this if you want keep-inventory to work
-override-keep-inventory: false
+override-keep-inventory: true
 
 # how high should grave holograms spawn?
 # only applies to new graves
@@ -114,7 +114,7 @@ update-notifier:
   # if enabled, it will display the message in the console
   enabled: true
   # if enabled, it will broadcast the update message to all players who have the <plugin-name>.update-notify permission
-  on-join: true
+  on-join: false
 
 # do not edit
 version: 13
