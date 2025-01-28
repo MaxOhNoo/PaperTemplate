@@ -5,7 +5,12 @@ libraries
 versions
 
 # Ignore all plugin files by default
-plugins
+plugins/*/*
+
+# Ignore plugins installed by Paper
+plugins/.paper-remapped
+plugins/bStats
+plugins/spark
 
 # Allow specifically these plugin file names
 !plugins/*/config.yml
