@@ -17,6 +17,7 @@ world
 world_nether
 world_the_end
 
+# Misc
 _readme.txt
 .console_history
 usercache.json
