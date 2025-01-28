@@ -43,9 +43,16 @@ if [ -f "server.jar" ]; then
     $FINALJAVAARGS=
 fi
 
+PAPER_JAR=$(find . -maxdepth 1 -name "*paper*.jar" | head -n 1)
+
+if [ -z "$PAPER_JAR" ]; then
+    echo "Error: No paper jar file found"
+    exit 1
+fi
+
 echo Launching below command
 echo -----------------------
-echo $JAVAPATH $FINALJAVAARGS -jar paper-1.21.4-126.jar "$LAUNCHARGS"
+echo $JAVAPATH $FINALJAVAARGS -jar "$PAPER_JAR" "$LAUNCHARGS"
 echo
-$JAVAPATH $FINALJAVAARGS -jar paper-1.21.4-126.jar "$LAUNCHARGS"
+$JAVAPATH $FINALJAVAARGS -jar "$PAPER_JAR" "$LAUNCHARGS"
 read -n1 -r -p "Press any key to close..."
